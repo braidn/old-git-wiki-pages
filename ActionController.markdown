@@ -4,3 +4,4 @@ Instructions on how your app will handle certain requests(called methods or 'act
 * Usually when actions complete their work they respond by rendering a view by using a RespondToBlock
   * The controller responds to the user exactly once per request.
     * This means that you could not have two `render()` methods per request
+* RestfulControllers
