@@ -1,1 +1,1 @@
-* `ActionView::Helpers::AssetTagHelper` and `ActionView::Helpers::UrlHelper` modules contain a number of methods that let you reference resources external to the current template
+* `Action View::Helpers::Asset Tag Helper` and `Action View::Helpers::Url Helper` modules contain a number of methods that let you reference resources external to the current template
