@@ -1,7 +1,7 @@
 * break the resources command in routes with a do -> end block:
     
     resources :products do
-      get :who_bought, on :member
+    get :who_bought, on :member
     end
 
 * fairly straightforward, build a route called "who_bought", use a get method in it, and it applies to each member of products
