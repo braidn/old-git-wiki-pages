@@ -5,3 +5,4 @@ Instructions on how your app will handle certain requests(called methods or 'act
   * The controller responds to the user exactly once per request.
     * This means that you could not have two `render()` methods per request
 * RestfulControllers
+* RailsFilters
