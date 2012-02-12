@@ -1,4 +1,4 @@
-* break the resources command in routes with a do -> end block
+* break the resources command in routes with a do -> end block  
     resources :products do  
       get :who_bought, on :member  
     end
