@@ -3,6 +3,6 @@
   * usually pass the location from app root: redirect_to("help/you_are_numb/morehelp")
 * `redirect_to(:back)` pulls the user back to the URL in the [HTTP_REFERER][1] header
 * When sending a redirect call, the new action doesn't have any intelligence of previous instance variables
-  * This subverted with a facility called "flash".
+  * This subverted with a facility called RailsFlash.
 
 [1]: https://en.wikipedia.org/wiki/HTTP_referrer
