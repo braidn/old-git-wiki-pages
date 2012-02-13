@@ -5,6 +5,4 @@ These are kinda tricky. Any time you see a `def` this is considered an instance 
   * `obj.public_send()` respects privacy within the application
     * Otherwise known as DynamicDispatch
     * Pattern Dispatch is identical except with RubyRegexp patterns instead of RubySymbols
-* 3 [forms of visibility][1]
-
-[1]: PrivatePublicProtectedMethods
+* 3 forms of visibility: RubyPrivateProtectedPublicMethods
