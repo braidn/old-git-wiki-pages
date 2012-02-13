@@ -3,6 +3,8 @@ These are kinda tricky. Any time you see a `def` this is considered an instance 
 * when calling a method you usually call it with `obj.method`
   * you can also call `obj.send(:method, args)`
   * `obj.public_send()` respects privacy within the application
-    * Otherwise known as "Dynamic Dispatch"
-    * Pattern Dispatch is identical except with regexp patterns instead of symbols
-    3 forms of visibility
+    * Otherwise known as DynamicDispatch
+    * Pattern Dispatch is identical except with RubyRegexp patterns instead of RubySymbols
+* 3 [forms of visibility][1]
+
+[1]: PrivatePublicProtectedMethods
