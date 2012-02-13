@@ -1,4 +1,4 @@
-###Rails
+###For Rails =>
 provides a dead simple method to generate them: `rails g test_unit:integration {{NameOfTest}} `
 
 * When your previous response was a redirect you can call `follow_redirect!` to jump to the controller that was redirected to.
