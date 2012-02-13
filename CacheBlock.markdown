@@ -3,6 +3,7 @@
 * also the below works only if there is one cache fragment per page. solved with: `<% cache(:action => 'controllerName', :part => 'nameOfSection) do %>`
 * ExpiringCachedFragments
 
+
     <% cache do %>
       <!-- Content -->
     <%end%>
