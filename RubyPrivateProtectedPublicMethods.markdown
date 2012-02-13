@@ -1,9 +1,9 @@
 * all instance methods are public by default
 * two different ways to set methods to private or protected
   * adding `private` before the method definition
-    * PrivateMethodExample1
+    * RubyPrivateMethodExample1
   * making them private after the fact
-    * PrivateMethodExample2
+    * RubyPrivateMethodExample2
 * private methods can't be called from object reference ( `n = doc.word_count` )
   * instead they are called from within other public instance methods
 * the `.send(:method_name)` method negates all visibility rules and allows the method to fire
