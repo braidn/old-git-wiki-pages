@@ -1,1 +1,1 @@
-create: `rails g observer ModelName`
+create: `rails g observer modelName`
