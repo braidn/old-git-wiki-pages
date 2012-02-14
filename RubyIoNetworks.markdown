@@ -1,9 +1,9 @@
 everything sexy comes bundled in three different library. 
 
 1. `'socket'`: Is a low level library good for sending standard packets around
-  1. [Ruby Doc Info][1]
+   1. [Ruby Doc Info][1]
 2. `'net/http'`: Application (FTP, HTTP, POP, SMTP, telnet) level libraries
-  1. [Ruby Doc Info][2]
+   1. [Ruby Doc Info][2]
 3. `'open-uri'`: Recognizes "http://" and "ftp://" and is smart about handling redirects and the such.
    1. [Ruby Doc Info][3]
 
