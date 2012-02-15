@@ -2,7 +2,7 @@
 * Invoked one or more times from within another template, potentially passing it objects to render as parameters. When the partial template finishes rendering, it returns control to the calling template
 * to use call: `<%= render(:partial => "nameOfPartial", :object => @ifDifferentFromName) %>`
   * which also can be written as: `<%= render(partial: 'nameOfPartial', object: @ifDifferentFromName)`
-  * or a simpler use: `<%= render 'nameWithoutUnderscoreInSameDir' %>`
+  * or a simpler use: `<%= render 'name_WithoutUnderscore_In_Same_Dir' %>`
 
 in addition you can add local variables to the partial by passing a `:locals => {}` hash along with :object and :partial
 
