@@ -4,7 +4,7 @@
 ##Type Checking
 
 * `typeof object` will return what type of object is being referenced
-* `object.hasOwnProperty("property")` will return a true or false if the property exists in the object
+* `object.has_Own_Property("property")` will return a true or false if the property exists in the object
 
 ##Looping
 
