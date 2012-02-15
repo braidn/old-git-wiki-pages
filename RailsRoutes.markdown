@@ -13,4 +13,4 @@
 * RailsNestedRoutes
 
 [1]: http://youtu.be/8RUO-V9BSnc
-[2]: http://api.rubyonrails.org/classes/ActionController/Routing.html
+[2]: http://api.rubyonrails.org/classes/Actioncontroller/Routing.html
