@@ -9,7 +9,7 @@
   * This causes the parent to be the requirement (in urls/etc)
 * RakeRoutesExamples
 * If you only need several actions use :only => [:update, :destroy] or :except options
-* RailsCustomActions
+* RailsCustomRoutingActions
 * RailsNestedRoutes
 
 [1]: http://youtu.be/8RUO-V9BSnc
