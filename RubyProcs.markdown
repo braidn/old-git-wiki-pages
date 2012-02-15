@@ -4,7 +4,7 @@
 * 4 different ways to call a proc
   1. `myproc.call(10)`
   2. `myproc.(10)`
-    * Synonym for the `.call` method
+     * Synonym for the `.call` method
   3. `myproc[10]`
   4. `myproc === 10`
-    * Iteration of the case statement and able to be applied directly to when statements in the overall case statement
+     * Iteration of the case statement and able to be applied directly to when statements in the overall case statement
