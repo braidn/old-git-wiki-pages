@@ -8,6 +8,7 @@ Basically how Rails knows how to form a database. Can be generated in two differ
 3. Rails also knows and implements a clever way to deal with RailsSessions
 
 
+
 * RailsRunningMigrations
 * RailsMigrationAnatomy
 * RailsManagingTables
