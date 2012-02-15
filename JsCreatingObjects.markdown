@@ -6,4 +6,6 @@ function Person(name, age) {
 
 Retrieving object properties
 
-    console.log("Bob's age is " + bob.age);
+    bob.age;
+    bob["age"];
+    
