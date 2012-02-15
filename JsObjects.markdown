@@ -1,4 +1,5 @@
-How to create: JsCreatingObjects
+* How to create: JsCreatingObjects  
+* JsObjectProperties
 
 ##Type Checking
 
