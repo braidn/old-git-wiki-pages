@@ -12,3 +12,7 @@ printing out all variables:
      for(var property in nyc) {
        console.log(property);
      }
+    for(var property in nyc) {
+      var myProperty = nyc[property];
+      console.log(myProperty);
+    }
