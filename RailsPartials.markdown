@@ -1,7 +1,7 @@
 * Sometimes called partial-page templates and MUST always start with an underscore (_)
 * Invoked one or more times from within another template, potentially passing it objects to render as parameters. When the partial template finishes rendering, it returns control to the calling template
-* to use call: `<%= render(:partial => "nameOfPartial", :object => @ifDifferentFromName) %>`
-  * which also can be written as: `<%= render(partial: 'nameOfPartial', object: @ifDifferentFromName)`
+* to use call: `<%= render(:partial => "name_Of_Partial", :object => @if_Different_From_Name) %>`
+  * which also can be written as: `<%= render(partial: 'name_Of_Partial', object: @if_Different_From_Name)`
   * or a simpler use: `<%= render 'name_WithoutUnderscore_In_Same_Dir' %>`
 
 in addition you can add local variables to the partial by passing a `:locals => {}` hash along with :object and :partial
