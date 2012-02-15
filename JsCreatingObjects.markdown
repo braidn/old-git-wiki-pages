@@ -4,8 +4,11 @@ function Person(name, age) {
     }
     var bob = new Person('bob', 20);
 
-Retrieving object properties
+Retrieving object properties:  
+Dot Notation
 
     bob.age;
+
+Bracket Notation
+
     bob["age"];
-    
