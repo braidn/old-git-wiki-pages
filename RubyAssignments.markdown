@@ -8,4 +8,4 @@ An assignment statement sets the variable on the left side (lvalue) to refer to 
 * lvalues may contain a parenthesized list of terms
   * This forces ruby to extract the corresponding rvalues, assign it to the terms, and continue onto the higher levels.
 * defined? returns nil if the argument is undefined and a description if it is
-* Ruby Getters and Setters
+* RubyGettersSetters
