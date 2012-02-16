@@ -3,4 +3,4 @@
   * Class inheritance == `ControllerNameSweeper < ActionController::Caching::Sweeper`
   * Require an `observe X` block where X == the name of controller
 * Basically a collection of methods for removing caches
-* Called in controller with `cache_sweeper :controllerName`
+* Called in controller with `cache_sweeper:controllerName`
