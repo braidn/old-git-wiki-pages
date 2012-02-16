@@ -7,3 +7,4 @@
   * Step parameter is used to rollback and redo more than 1 migration
 * Fill your database with data with `rake db:seed`
   * this pulls from the seed.rb folder in the db directory
+* Rails keeps track of the last migration run in the db/schema.rb file
