@@ -1,4 +1,4 @@
 * {{EnsureClause}}
 * {{RetryClause}}
-* Strait {RaisingExceptions}}
+* Strait {{RaisingExceptions}}
 * {{CatchThrowErrors}}
