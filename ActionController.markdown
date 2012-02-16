@@ -4,9 +4,9 @@ Instructions on how your app will handle certain requests(called methods or 'act
 * Usually when actions complete their work they respond by rendering a view by using a RespondToBlock
   * The controller responds to the user exactly once per request.
     * This means that you could not have two `render()` methods per request
-* RestfulControllers
-* RailsFilters
+* {{RestfulControllers}}
+* {{RailsFilters}}
 * If in the controller and you pass `respond_to` an item not surrounded by {} then it looks for it's name (create, delete, show) in the proper view directory.
 * If you place a `private` method in the application controller it will be accessible by ALL controllers BUT never as an action
-* RenderOptions
-* RenderToOptions
+* {{RenderOptions}}
+* {{RenderToOptions}}
