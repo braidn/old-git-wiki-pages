@@ -1,7 +1,7 @@
 Many of the below are either conventions in Ruby or directly bleed into it.
 
 * Convention = all lowercase / separated by underscores
-* Classes and RubyModules use CamelCase
+* Classes and {{RubyModules}} use CamelCase
   * not camelCase
 * Table names are underscored, lowercase, and always plural
 * Model names would be written as LineItems and reference a table called line_items
