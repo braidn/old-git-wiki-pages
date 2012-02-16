@@ -9,4 +9,4 @@ Instructions on how your app will handle certain requests(called methods or 'act
 * If in the controller and you pass `respond_to` an item not surrounded by {} then it looks for it's name (create, delete, show) in the proper view directory.
 * If you place a `private` method in the application controller it will be accessible by ALL controllers BUT never as an action
 * {{RenderOptions}}
-* {{RenderToOptions}}
+* {{RenderOptions}}
