@@ -4,4 +4,4 @@
   * best used for home page welcomes and with the render controller method
 * `flash[.notice] = 'message'` will flash for the next controller
   * best used with the render controller method
-* RenderSampleTemplateCode
+* {{RenderSampleTemplateCode}}
