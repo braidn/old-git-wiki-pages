@@ -3,9 +3,9 @@
   * if a plural needs to be correctly defined then the following code gets placed in /initilizers/inflection.rb
     * `class Sheep < ActiveRecord::Base self.table_name = "sheep" end `
 * In rails console invoke `Order.column_names` to see the column names of the available model
-* ArPrimaryKeys
-* ArModelRelationships
-* ArDynamicFinders
-* ArCallbacks
-* ArObservers
-* ArTransactions
+* {{ArPrimaryKeys}}
+* {{ArModelRelationships}}
+* {{ArDynamicFinders}}
+* {{ArCallbacks}}
+* {{ArObservers}}
+* {{ArTransactions}}
