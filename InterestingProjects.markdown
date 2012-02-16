@@ -1,4 +1,4 @@
 ##Ruby =>
 
 * {{SinatraWebFramework}}
-* {{Compass}}
+* Compass
