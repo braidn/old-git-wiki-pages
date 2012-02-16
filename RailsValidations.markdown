@@ -8,8 +8,7 @@ common ones include:
 * `validates :email, :format => {:with => /someregex/}`
   * The key to this is regexex. Learn them and love them
 * `validates :password, :confirmation => true`
-* RailsCustomValidations
+* {{RailsCustomValidations}}
 
 The CSS class that is wrapped around the errors is called `fieldWithErrors`
 Use this to style elements correctly. The original files are created when invoking the scaffold generator and are held in public/stylesheets/scaffold.css
-
