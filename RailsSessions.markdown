@@ -1,6 +1,6 @@
 * `rake db:sessions:create` is used to generate the proper RailsMigrations vs the old standard `rails g` way
   * To complete the circle run over to config/initializers/session_store.rb and un-comment the last line
-* The RailsFlash and session interface of rails is identical
+* The {{RailsFlash}} and session interface of rails is identical
   * Some EX: `session[:account_id] = @account_id` or `session['message'] = 'Hello World'`
 * From here simply build a controller that lets the user login(new) and logout(destroy)
 * When defining resources for RailsRoutes make sure you call resource != resources ( RailsResourceVsResources )
