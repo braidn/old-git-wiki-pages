@@ -1,12 +1,12 @@
 * How to create: JsCreatingObjects  
 * JsObjectProperties
 
-##Type Checking
+###Type Checking
 
 * `typeof object` will return what type of object is being referenced
 * `object.has_Own_Property("property")` will return a true or false if the property exists in the object
 
-##Looping
+###Looping
 
 printing out all variables:
 
