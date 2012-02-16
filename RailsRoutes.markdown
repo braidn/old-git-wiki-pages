@@ -7,10 +7,10 @@
 * Using `rake routes` in the app directory will show ALL available routes.
 * Nesting is done in a block where all nested resources are placed in block. Still use resources :models naming method
   * This causes the parent to be the requirement (in urls/etc)
-* RakeRoutesExamples
+* {{RakeRoutesExamples}}
 * If you only need several actions use :only => [:update, :destroy] or :except options
-* RailsCustomRoutingActions
-* RailsNestedRoutes
+* {{RailsCustomRoutingActions}}
+* {{RailsNestedRoutes}}
 
 [1]: http://youtu.be/8RUO-V9BSnc
 [2]: http://api.rubyonrails.org/classes/Actioncontroller/Routing.html
