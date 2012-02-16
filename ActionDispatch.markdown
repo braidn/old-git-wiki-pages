@@ -9,10 +9,10 @@ Responsible for dissecting the incoming url and delegating control to the approp
 * Using `rake routes` in the app directory will show ALL available routes.
 * Nesting is done in a block where all nested resources are placed in block. Still use `resources :models` naming method
   * This causes the parent to be the requirement (in urls/etc)
-* RoutesExamples
+* {{RoutesExamples}}
 * If you only need several actions use `:only => [:update, :destroy]` or `:except options`
-* CustomActions
-* NestedRoutes
+* {{CustomActions}}
+* {{NestedRoutes}}
 
 [1]: http://youtu.be/8RUO-V9BSnc
 [2]: http://api.rubyonrails.org/classes/ActionController/Routing.html
