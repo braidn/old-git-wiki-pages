@@ -1,6 +1,6 @@
 Getting started: download the sinatra gem, require 'sinatra' in the .rb file and to get it running locally use ruby fileName in terminal.
 
-* {{SinatraRoutes}
+* {{SinatraRoutes}}
 * two approaches to building web stuff with Sinatra
   * modular mode: explicitly subclass sinatra and build within the scope
   * classic mode: require sinatra and start building out endpoints 
