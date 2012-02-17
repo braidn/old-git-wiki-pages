@@ -15,3 +15,7 @@ Sinatra's main DSL is built off from simple _verb 'route' do_ blocks
 
 * {{SinatraRouteParams}}
 * Logic is passed into {{SinatraViews}} from each route.
+* Provides a `not_found do` block to handle 404 issues that might arise.  
+  * `error do` blocks are used to handle 500 errors.
+* Headers can be changed in blocks by passing: `headers "nameOfHeader" => "headerContent"`
+  * You can chain header morphing along with a simple "," between each header change.
