@@ -13,4 +13,5 @@ Sinatra's main DSL is built off from simple _verb 'route' do_ blocks
       end
        end
 
-*{{SinatraRouteParams}}
+* {{SinatraRouteParams}}
+* Logic is passed into {{SinatraViews}} from each route.
