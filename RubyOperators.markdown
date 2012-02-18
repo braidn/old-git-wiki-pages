@@ -1,0 +1,1 @@
+nearly all of Ruby's operators can be override. The `and`, `or`, `not`, `&&`, `||` are fixed in Ruby
