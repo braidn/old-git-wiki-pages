@@ -4,3 +4,4 @@ Way to build a scenario in human readable language.
 * Anything above the `Scenario` declaration is just documentation and considered a `Feature:` block
   * Anything below it are steps in the specific scenario
 * Each step begins with 5 possible words: `Given, When, Then, And, But`
+* In many instances considered integration tests.
