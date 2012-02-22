@@ -4,5 +4,10 @@
 
 ###Looping
 
-* `.length`1 method is handy for finding the overal length of an array
+* `.length()`1 method is handy for finding the overal length of an array
 * `arrayName[indexNumber]` will output whatever is at that specific point in the array
+
+###Strings
+
+* string are basically just groups of arrays
+  * this means we can grab characters out of a string with an array index
