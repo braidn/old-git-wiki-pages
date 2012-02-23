@@ -5,3 +5,4 @@ Way to build a scenario in human readable language.
   * Anything below it are steps in the specific scenario
 * Each step begins with 5 possible words: `Given, When, Then, And, But`
 * In many instances considered integration tests.
+* All matches are returned as a String based variable.
