@@ -1,4 +1,4 @@
-Way to build a scenario in human readable language.
+Way to build a scenario in human readable language. Best served with large {{Capybara}} like rodents
 
 * To install a skeleton in a rails project: `rails g cucumber:install`
   * This also creates several handy rake tasks that can be seen by `rake -T`
