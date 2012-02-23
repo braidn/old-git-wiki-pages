@@ -1,1 +1,1 @@
-stuff
+Head to {{pages}} to find content
