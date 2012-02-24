@@ -10,6 +10,7 @@ All of the above are done with the binding key:
   * `%` to split a vertical pane
   * `alt arrowKey` to resize current pane
   * `arrowKey` to jump from pane to pane
+  * `{` to rotate panes
 * `c` to create a new window (think tabs)
   * `,` to rename current window
 * `number` or `n` or `p` to cycle the windows
