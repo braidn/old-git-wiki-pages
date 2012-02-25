@@ -14,3 +14,8 @@ All of the above are done with the binding key:
 * `c` to create a new window (think tabs)
   * `,` to rename current window
 * `number` or `n` or `p` to cycle the windows
+* `[` to jump into visual mode (great for scrolling through buffers and
+  such
+  * `space` to start selection `enter` to confirm the copy (move around
+    like in vim
+  * `]` to paste the selected into whatever
