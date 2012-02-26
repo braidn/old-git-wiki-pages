@@ -2,9 +2,9 @@
 
 1. `.eql?`
 1. `.equal?`
-  * tests for object identity
-  * `x.equal?(y)`
-  * read x object is equal to y object?
+    * tests for object identity
+    * `x.equal?(y)`
+    * read x object is equal to y object?
 1. `==`
 1. `===`
 
