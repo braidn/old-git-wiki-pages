@@ -1,6 +1,6 @@
 4 methods that take the cake:
 
-# `.eql?`
-# `.equal?`
-# `==`
-# `===`
+1. `.eql?`
+1. `.equal?`
+1. `==`
+1. `===`
