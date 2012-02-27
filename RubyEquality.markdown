@@ -7,6 +7,7 @@
     * read x object is equal to y object?
 1. `==`
 1. `===`
+    * {{RubyCaseStatements}} normally use this operator to find the specific case
 
 ### Other Methods
 
