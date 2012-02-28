@@ -17,3 +17,12 @@ printing out all variables:
       var myProperty = nyc[property];
       console.log(myProperty);
     }
+
+###Getters
+
+~~~
+inside a class...
+this.functionName = function() {
+  return this.classVariable;
+};
+~~~~
