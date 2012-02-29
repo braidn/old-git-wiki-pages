@@ -1,4 +1,4 @@
-Syntax
+Syntax:
 
 ~~~
 functionName: function() {
