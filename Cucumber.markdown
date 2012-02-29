@@ -1,4 +1,4 @@
-Way to build a scenario in human readable language. Best served with large {{CapybaraDsl}} like rodents
+Way to build a scenario in human readable language. Best served with large [CapybaraDsl][1] like rodents
 
 * To install a skeleton in a rails project: `rails g cucumber:install`
   * This also creates several handy rake tasks that can be seen by `rake -T`
@@ -8,3 +8,5 @@ Way to build a scenario in human readable language. Best served with large {{Cap
 * Each step begins with 5 possible words: `Given, When, Then, And, But`
 * In many instances considered integration tests.
 * All matches are returned as a String based variable.
+
+[1]: /CapybaraDsl
