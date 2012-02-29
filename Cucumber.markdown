@@ -1,4 +1,4 @@
-Way to build a scenario in human readable language. Best served with large [CapybaraDsl][1] like rodents
+Way to build a scenario in human readable language. Best served with large [Capybara Dsl][1] like rodents
 
 * To install a skeleton in a rails project: `rails g cucumber:install`
   * This also creates several handy rake tasks that can be seen by `rake -T`
@@ -9,4 +9,11 @@ Way to build a scenario in human readable language. Best served with large [Capy
 * In many instances considered integration tests.
 * All matches are returned as a String based variable.
 
+###Objects
+
+* Best to use Factory_girl
+ * make sure the files from the factories dir (or wherever) is being loaded into the factories.rb file in the support section of Cucumber
+   * an [example][2]
+
 [1]: /CapybaraDsl
+[2]: /FactoryGirlCucumberEnvironment
