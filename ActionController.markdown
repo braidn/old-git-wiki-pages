@@ -10,8 +10,10 @@ Instructions on how your app will handle certain requests(called methods or 'act
 * If you place a `private` method in the application controller it will be accessible by ALL controllers BUT never as an action
 * [RenderOptions][3]
 * [RenderToOptions][4]
+* [RailsControllerScrathPad][5]
 
 [1]: /RestfulControllers
 [2]: /RailsFilters
 [3]: /RenderOptions
 [4]: /RenderToOptions
+[5]: /RailsControllerScrathPad
