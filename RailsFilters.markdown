@@ -7,3 +7,10 @@ Three common filters:
   * Requires the use of the `yield`
   * If one causes a false value or there is no `yield` then the filter fails.
   * __BENEFIT__: they retain context throughout the entire action.
+
+###Controllers
+
+* A good way to clean up your methods.
+  * build private methods and source them into
+  * good example is @item = Item.find(params[:id])
+    * build into a method and drop it in a before_filter
