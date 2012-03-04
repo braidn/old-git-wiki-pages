@@ -12,4 +12,9 @@
 * Used to create routines that are executed before or after something.
 * Think of it as handing over the right amount of code at the very specific time it is needed
 
+###Explicit Blocks
+
+* Passed in as a parameter to a method by defining the parameter with a `&`
+* After we have captured the block from the params we then call it with a `.call` method in the block of code we are building (__not__ the params)
+
 [0]: /RubyEnumerable
