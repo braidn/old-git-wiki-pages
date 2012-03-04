@@ -1,6 +1,10 @@
+* `!` to clear the buffer
 * `cd` into models
 * `nexting` command shows you where you are and `exit` bumps you up
 * `use -h` along with an item for a list of commands
+* `show-input` will read you back where you are in the class or method\
+  * this will also print out a series of lines items are on
+  * if you fucked up for some reason you can use `amend-line N newCode` where N is the number of the line
 * `show-doc` is used with an item to see the documentation for the specific object
 * `show-method` to find some source code
   * `edit-method methodname` will open an editor and take you to the methodLine
