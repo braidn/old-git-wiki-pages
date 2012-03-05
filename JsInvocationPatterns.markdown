@@ -1,6 +1,7 @@
 ###Method Pattern
 
 * When a function is defined as a method on an object
+
 ~~~
 var Object {
   billy: function(param1, param2) {
