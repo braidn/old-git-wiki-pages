@@ -16,3 +16,7 @@ Create an Animal class and then assign a Penguin as a Animal
     Penguin.prototype = new Animal();
 
 Now penguins can do everything that normal animals can do...and maybe more.
+
+* use `instanceof` to figure out if an object is an instance of a class
+  * `penguin instanceof animal`
+  * returns either true or false (good for if statements)
