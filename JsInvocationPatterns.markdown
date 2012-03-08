@@ -18,11 +18,11 @@ var Object {
 
 ###Constructor Pattern
 
-~~
+~~~
 var Quo = function(params) {
   this.status = params
 };
-~~~
+~~~~
 
 * Then you could use the word new to inherent from this newly defined object.
 
