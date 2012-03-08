@@ -18,6 +18,16 @@ var Object {
 
 ###Constructor Pattern
 
+~~
+var Quo = function(params) {
+  this.status = params
+};
+~~~
 
+* Then you could use the word new to inherent from this newly defined object.
 
 ###Apply Pattern
+
+* Utilizes the `.apply` method that takes two parameters
+  * 1st is what get's bound to `this`
+  * 2nd is an array of of the actual params
