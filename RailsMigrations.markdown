@@ -10,3 +10,7 @@ Basically how Rails knows how to form a database. Can be generated in two differ
 5. RailsMigrationAnatomy
 6. RailsManagingTables
 7. RailsAdvancedMigrations
+
+###Best Practices
+
+* If a migration has been pushed/commited, it's best not to modify it.
