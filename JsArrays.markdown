@@ -17,4 +17,14 @@
 ###Dimensions
 
 * The idea of an array in an array...so fucking Inception
-* To access these values: `arrayName[0[0]`
+* To access these values: `arrayName[0][0]`
+
+###Associative
+
+* Think about [ruby hashes][0]
+* `var myHash = {key1: val1, key2: val2}`
+* looping over these arrays is really easy with the [`for in` array][1]
+
+
+[0]: /RubyArrays
+[1]: /JsForInLoopExample
