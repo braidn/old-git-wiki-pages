@@ -13,3 +13,8 @@
 
 * string are basically just groups of arrays
   * this means we can grab characters out of a string with an array index
+
+###Dimensions
+
+* The idea of an array in an array...so fucking Inception
+* To access these values: `arrayName[0[0]`
