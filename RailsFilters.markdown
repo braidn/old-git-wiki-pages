@@ -7,6 +7,8 @@ Three common filters:
   * Requires the use of the `yield`
   * If one causes a false value or there is no `yield` then the filter fails.
   * __BENEFIT__: they retain context throughout the entire action.
+* Stack the filters so they fail when needed to save CPU cycles
+
 
 ###Controllers
 
