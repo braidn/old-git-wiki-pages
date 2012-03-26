@@ -26,3 +26,16 @@ this.functionName = function() {
   return this.classVariable;
 };
 ~~~~
+
+###Math
+
+Math object is used to build mathematical operations
+
+* `.abs( )` absolute value
+* `.ceil( )` round up to the nearest integer
+* `.floor( )` rounds down to the nearest integer
+* `.max( )` returns the largest of numbers
+* `.min( )` returns the minimum or the smallest of numbers
+* `.pow( )` returns the power of the number in parens
+* `.round( )` rounded to the nearest integer
+* `.random( )` returns a pseudo random number between 0 and 1
