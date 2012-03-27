@@ -34,6 +34,7 @@ Math object is used to build mathematical operations
 * `.abs( )` absolute value
   * great to guarantee positive numbers without using conditional statements
 * `.ceil( )` round up to the nearest integer
+  * great combined with `.random()*number` to generate a specific random number.
 * `.floor( )` rounds down to the nearest integer
 * `.max( )` returns the largest of numbers
 * `.min( )` returns the minimum or the smallest of numbers
