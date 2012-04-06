@@ -11,15 +11,16 @@
 
 ###In Tests
 
-* Assign a var to a `Factory.create(:factoryName, :modifiedValue => "Value")`
-  * Any valid value can be passed into the hash after the factory name
+* Assign a var to a `Factory.create(:factoryName, :modifiedAttribute => "Value")`
+  * Any valid attribute can be passed into the hash after the factory name
   * Also can be written as `Factory(:factoryName)`
   * Or assign itself to an instance var in a setup block
 
 ###Sequencing (Building Unique Things)
 
 * [Sequence Example][0]
-
+* Can be referred to explicitly by calling `Factory.next(:sequenceName)` on any atribute
+  * This can be __completely__ negated if the attribute name matches the sequence name
 
 
 
