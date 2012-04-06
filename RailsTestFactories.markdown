@@ -1,4 +1,4 @@
-###Factories
+###Details
 
 * Instead of specifying your data directly, you build a blueprint that will construct your slice of data
 * Three really popular gems in order:
@@ -8,6 +8,8 @@
 * Using dynamic content is allowed by passing a block to the db value
   * Ex: `start_date { Date.today }`
   * In addition, you can reference previous fields in blocks as well
+* Strive to create as little data with factories as needed
+  * If compared 1:1, factories are a little slower than [fixtures][1]
 
 ###In Tests
 
@@ -22,6 +24,13 @@
 * Can be referred to explicitly by calling `Factory.next(:sequenceName)` on any atribute
   * This can be __completely__ negated if the attribute name matches the sequence name
 
+###Associations
+
+* Associations want to be done from the `belong_to` side of the association as much as possible
+* Written like: `association :attributeName, :factory => :factoryName, :overidingValue => "Stuff"`
+* When calling the factory and you __don't__ want/need the association, call `nil` on it
+
 
 
 [0]: /RailsTestFactoriesSequenceExample
+[1]: /RailsTestFixtures
