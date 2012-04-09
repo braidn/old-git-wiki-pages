@@ -8,6 +8,8 @@
 
 * `.length()`1 method is handy for finding the overal length of an array
 * `arrayName[indexNumber]` will output whatever is at that specific point in the array
+* It is better resource wise to set a variable to the array length and compare the iteration to it
+* `for(var i = 0; count = array.length, i < count; i++){}`
 
 ###Strings
 
