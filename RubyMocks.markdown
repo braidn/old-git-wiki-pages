@@ -9,6 +9,7 @@
 * Allows us to test the process along with the result
   * This is unlike normal testing that only cares about the end result
 * Attempt to limit the amount of mocks in each test down to the lowest possible.
+* Known for creating false positives, be careful not to rid testing suite with false positives
 
 ###Stubs
 
