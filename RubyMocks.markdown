@@ -6,8 +6,20 @@
   1. Double Ruby: New kid on the block ( Mon, 09 Apr 2012 13:56:27 )
   1. Rspec: Built in mocking library
 * Easily used in Rails by adding require 'mocha' to your test_helper.rb file. 
+* Allows us to test the process along with the result
+  * This is unlike normal testing that only cares about the end result
 
 ###Stubs
 
 * A replacement for all or sometimes a part of a Ruby object.
 * Hashed arguments correspond to the methods that the stubbed object returns
+* Since the basis of Stubs is creating dummy objects, it is possible to stub both classes and methods.
+* Returning different values is done with the `with` method
+  * `Project.stubs(:find).with(1).returns(Project.new(:name => "Some project name"))`
+  * The above could be used with an `assert_equal("Some project name", Project.find(1).name)`
+
+###Mocks
+
+* Really the same as a stub but demanding that all defined methods be tested during the duration of the specific test
+  * Really diva like stubs...demanding you do EVERYTHING with them.
+* Uses the `expects` method instead of the `stubs` method when dealing with creation
