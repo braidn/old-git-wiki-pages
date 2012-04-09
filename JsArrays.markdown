@@ -1,15 +1,24 @@
+###Methods
+
 * access to both `.pop` and `.push` methods just like ruby.
 * `.splits` and `.joins` work much like ruby as well
 * `.slice(startNumber, endNumber)` will extract the words.
   * also used to copy an array from one variable to another
     * if done with simple `=` it is a pointer, not a copy
+* `delete myArray[0];`
+* `.unshift` is the opposite of push meaning the value goes to the beginning of the array
+  * unshift works the same but with pop
+  * unshift is much slower to use than push
+* `.concats` basically flattens multi dimensional arrays
 
 ###Looping
 
 * `.length()`1 method is handy for finding the overal length of an array
 * `arrayName[indexNumber]` will output whatever is at that specific point in the array
 * It is better resource wise to set a variable to the array length and compare the iteration to it
-* `for(var i = 0; count = array.length, i < count; i++){}`
+  * `for(var i = 0; count = array.length, i < count; i++){}`
+* if the space in the array is undefined:
+  * `if(myArray[i] !== undefined {do something}`
 
 ###Strings
 
