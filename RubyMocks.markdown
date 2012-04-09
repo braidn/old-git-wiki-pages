@@ -8,6 +8,7 @@
 * Easily used in Rails by adding require 'mocha' to your test_helper.rb file. 
 * Allows us to test the process along with the result
   * This is unlike normal testing that only cares about the end result
+* Attempt to limit the amount of mocks in each test down to the lowest possible.
 
 ###Stubs
 
