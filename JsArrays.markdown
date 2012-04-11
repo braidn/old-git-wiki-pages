@@ -19,6 +19,9 @@
   * `for(var i = 0; count = array.length, i < count; i++){}`
 * if the space in the array is undefined:
   * `if(myArray[i] !== undefined {do something}`
+* [For...in looping][1] is also available
+  * the return will not be in any specific order
+  * very slow, used when no other loop is available
 
 ###Strings
 
