@@ -2,3 +2,4 @@ Classes are objects as well and due to that, they have instance methods...of sor
 
 * Worth remembering: Class is a subclass of Module
 * All class definitions are executable
+* Defined one method at a time
