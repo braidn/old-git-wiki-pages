@@ -16,7 +16,7 @@
   1. event type
   1. function to be used
   1. boolean for the specific event phase (false is also OK)
-*Watch the quotes around the actual name of the event
+* Watch the quotes around the actual name of the event
 * Older versions of [IE][1] use `.attachEvent();` and `.detachEvent();`
   * and instead of taking 3 take 2 arguments (same order as above)
 
