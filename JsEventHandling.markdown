@@ -19,5 +19,6 @@
 * Watch the quotes around the actual name of the event
 * Older versions of [IE][1] use `.attachEvent();` and `.detachEvent();`
   * and instead of taking 3 take 2 arguments (same order as above)
+  * also it uses the onload syntax in the event instead of just load (like the W3C version)
 
 [1]: http://iehatersclub.com/
