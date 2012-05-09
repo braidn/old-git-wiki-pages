@@ -5,7 +5,7 @@ Way to build a scenario in human readable language. Best served with large [Capy
 * Consist of three parts: Title, Brief Narrative, any amount of Scenarios
 * Anything above the `Scenario` declaration is just documentation and considered a `Feature:` block
   * Anything below it are steps in the specific scenario
-* Each step begins with 5 possible words: `Given, When, Then, And, But`
+* Each step begins with 5 possible [keywords][4]: `Given, When, Then, And, But`
 * In many instances considered integration tests.
 * All matches are returned as a String based variable.
 
@@ -17,6 +17,11 @@ Way to build a scenario in human readable language. Best served with large [Capy
 * This works because all files in features/support get loaded prior to cucumber running its tests
 * Instance variables are available in all steps once defined in one step.
 
+###Flags
+
+* `--dry-run`: parses the .feature file without execution, will show any errors in the Gherkin
+
 [1]: /CapybaraDsl
 [2]: /FactoryGirlCucumberEnvironment
 [3]: /FactoryGirlCucumberEnvironment
+[4]: /CucumberKeywords
