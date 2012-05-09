@@ -11,7 +11,7 @@ Way to build a scenario in human readable language. Best served with large [Capy
 
 ###Objects
 
-* Best to use Factory_girl
+* Best to use [Factory_girl][3]
   * make sure the files from the factories dir (or wherever) is being loaded into the factories.rb file in the support section of Cucumber
     * an [example][2]
 * This works because all files in features/support get loaded prior to cucumber running its tests
@@ -19,3 +19,4 @@ Way to build a scenario in human readable language. Best served with large [Capy
 
 [1]: /CapybaraDsl
 [2]: /FactoryGirlCucumberEnvironment
+[3]: /FactoryGirlCucumberEnvironment
