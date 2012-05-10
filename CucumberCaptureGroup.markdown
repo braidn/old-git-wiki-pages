@@ -7,3 +7,11 @@
 * Ranges are also totally usable with: `([0-9])`
   * or just the digit regex tool: `\d`
 * A step can have any amount of capture groups as needed.
+* `^` is used to anchor the expression at the beginning
+  * `$` does the same but at the very end
+
+###Non Capture
+
+* Sort of a way to write one step that matches several different phrases
+* Written much like the capture group but with a pipe like: (?: stuff | stiff)
+* Creates _NO_ argument group
