@@ -1,11 +1,16 @@
 ###To Read
 
+1. Rails View
+1. Rails Recipies
+1. Javascript Web Applications
+
 
 ###Reading
 
 1. Modern Javascript
 1. Secrets of the Javascript Ninja
 1. Cucumber Book
+1. Apprenticeship Patterns
 
 ###Fin
 
