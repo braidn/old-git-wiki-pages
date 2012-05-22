@@ -21,6 +21,13 @@ Way to build a scenario in human readable language. Best served with large [Capy
 
 * `--dry-run`: parses the .feature file without execution, will show any errors in the Gherkin
 
+###Tags
+
+* Tags can be used to define scenarios or whole features with `@tagname`
+  * multiple tags are allowed
+* Cucumber can run just a certain set of tags 
+* Way easier than defining all your features with folders.
+
 [1]: /CapybaraDsl
 [2]: /FactoryGirlCucumberEnvironment
 [3]: /FactoryGirlCucumberEnvironment
