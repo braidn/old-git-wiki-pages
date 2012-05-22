@@ -1,4 +1,4 @@
-Way to build a scenario in human readable language. Best served with large [Capybara Dsl][1] like rodents
+Way to build a scenario in human readable language when using [outside in development][5]. Best served with large [Capybara Dsl][1] like rodents
 
 * To install a skeleton in a rails project: `rails g cucumber:install`
   * This also creates several handy rake tasks that can be seen by `rake -T`
@@ -32,3 +32,4 @@ Way to build a scenario in human readable language. Best served with large [Capy
 [2]: /FactoryGirlCucumberEnvironment
 [3]: /FactoryGirlCucumberEnvironment
 [4]: /CucumberKeywords
+[5]: /OutsideInDevelopment
