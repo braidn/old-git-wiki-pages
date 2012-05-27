@@ -10,6 +10,7 @@
 * App server side is where all code is run.
 * Sharding is where data is portioned out over several different servers
 * Replication is direct copies of data over multiple servers
+* 
 
 ###HTML and CSS
 
