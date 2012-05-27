@@ -41,9 +41,20 @@
 * Basic operations on an object is CRUD
 * Each __row__ in the table == one model instance
 * Each __column__ stores a value pertaining to each attribute of the specific model
+* Schema: Collection of all tables and their data.
+* AR sets up common ways to perform CRUD
+  * DataMapper requires you to set up each piece of CRUD
+    * this allows DM to scale to almost any kind of database
+* DM is very scalable where AR is kind of kludgy in areas.
+
+###Controllers, Routes, and REST
+
+* Routes are mapping a [HTTP Method][2] and a URI to a specific controller action
+* 
 
 
 
 {::comment}Links{:/}
 
 [1]: http://www.yafla.com/dennisforbes/-Web-Apps-Suck-Because-HTTP-is-Stateless-/-Web-Apps-Suck-Because-HTTP-is-Stateless-.html
+[2]: /RepresentativeStateTransfer
