@@ -87,7 +87,6 @@
   * Reduce what you do to speed things up
 
 
-{::comment} Links {:/}
 
 [1]: https://en.wikipedia.org/wiki/Velocity_(software_development)
 [2]: https://en.wikipedia.org/wiki/Abstraction_(computer_science)
