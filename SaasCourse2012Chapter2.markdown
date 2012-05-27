@@ -50,6 +50,9 @@
 ###Controllers, Routes, and REST
 
 * Routes are mapping a [HTTP Method][2] and a URI to a specific controller action
+* In Rails:
+  * Provides helper methods
+  * Built in shortcuts for CRUD routes
 * 
 
 
