@@ -39,8 +39,8 @@
 * Marshaling: basically freezing an object in memory
   * Unmarshaling would be the opposite, bring it out, give it a new object reference, use/modify it.
 * Basic operations on an object is CRUD
-* Each _row_ in the table == one model instance
-* Each _column_ stores a value pertaining to each attribute of the specific model
+* Each __row__ in the table == one model instance
+* Each __column__ stores a value pertaining to each attribute of the specific model
 
 
 
