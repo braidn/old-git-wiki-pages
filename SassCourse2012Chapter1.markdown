@@ -72,6 +72,7 @@
 * Modular and easy to repair mistakes
 
 {::comment} Links {:/}
+
 [1]: https://en.wikipedia.org/wiki/Velocity_(software_development)
 [2]: https://en.wikipedia.org/wiki/Abstraction_(computer_science)
 [3]: https://en.wikipedia.org/wiki/Design_pattern_(computer_science)
