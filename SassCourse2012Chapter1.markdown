@@ -16,6 +16,7 @@
   * Continuous improvements over phases
   * TDD based design
   * [Velocity][1] to measure team progress
+* Rails has a strong tie to Agile development model
 
 ###Testing
 
@@ -70,6 +71,21 @@
 
 * All components are designed to be services
 * Modular and easy to repair mistakes
+* All communications go through an api
+
+###Cloud Computing
+
+* Clusters are more scalable than traditional server
+* VMs simplify ops
+* Warehouse Scale comps refers to the economies at scale
+* Traditional Datacenters utilize only 10-20%
+* Watson cost roughly 200$ per hour
+
+###Pitfalls/Fallacies
+
+* Adding people to a software project doesn't add to productivity
+  * Reduce what you do to speed things up
+
 
 {::comment} Links {:/}
 
