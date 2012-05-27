@@ -53,11 +53,16 @@
 * In Rails:
   * Provides helper methods
   * Built in shortcuts for CRUD routes
-* 
+
+###Template Views
+
+* HTML with a bunch of snippets that are evaluated at runtime
+* MVC advocates thin views and controllers
+* HAML makes it deliberately awkward to insert code into views
 
 
 
-{::comment}Links{:/}
+
 
 [1]: http://www.yafla.com/dennisforbes/-Web-Apps-Suck-Because-HTTP-is-Stateless-/-Web-Apps-Suck-Because-HTTP-is-Stateless-.html
 [2]: /RepresentativeStateTransfer
