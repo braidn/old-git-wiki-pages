@@ -10,7 +10,6 @@
 1. Modern Javascript
 1. Secrets of the Javascript Ninja
 1. Cucumber Book
-1. Apprenticeship Patterns
 
 ###Fin
 
@@ -23,3 +22,4 @@
 1. The Pragmatic Programmer
 1. 7 Languages in 7 Weeks
 1. Eloquent Javascript
+1. Apprenticeship Patterns
