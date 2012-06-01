@@ -3,8 +3,8 @@
 
 Syntax:
 
-~~~~
+```
 Transform /^\d+$/ do |numb|  
   number.to_i  
 end
-~~~
+```
