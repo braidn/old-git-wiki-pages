@@ -3,7 +3,6 @@
 * Adding cool features that do not make app more productive is a classic pitfall
 * Write tests, build stuff, no fluff
 * This chapter and it's tests are just 1/3 of the overall test suites and tools needed
-* 
 
 ###Behavior Driven Design/Dev
 
