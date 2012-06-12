@@ -1,5 +1,10 @@
 ###Notes
 
+* Adding cool features that do not make app more productive is a classic pitfall
+* Write tests, build stuff, no fluff
+* This chapter and it's tests are just 1/3 of the overall test suites and tools needed
+* 
+
 ###Behavior Driven Design/Dev
 
 * Software fails because projects are late or customers don't know what they want or over budget, or hard to maintain
@@ -49,7 +54,11 @@
 * Storyboards show how UI changes based on user actions
 * Next step is HAML and CSS so we can make it pretty _after_ it works
 
+###Imperative VS Declarative
 
+* _Imperative_: Initial user stories usually have lots of steps, specifying logical sequences that gets to desired results
+* _Declarative_: much fewer steps
+* Basically this boils down to Declarative steps reuse a lot of older steps and phrases, reducing the need to write out each and every step
 
 [1]: /ConnextraFormat
 [2]: http://www.agilejourneyman.com/2011/08/5-whys-putting-fun-back-into-your.html
