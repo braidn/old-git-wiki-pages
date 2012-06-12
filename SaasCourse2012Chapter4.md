@@ -22,7 +22,33 @@
 * Each story assigned and estimate of points (3 point scale) based on difficulty
 * Velocity == Points completed per iteration
 * Always ask "Why" in a recursive manner until the business value is discovered or ultimately killed ([5 why's][2])
-* 
+
+###Cucumber and Capybara
+
+* Cucumber tests customer understandable user stories
+* Cucumber meets halfway and the developer
+* 1 Feature per User Story + 1 or more Scenario and an unlimited amount of features (dev wants to keep it small)
+* _User Story_ refers to a single _feature_
+* _Featire_ is 1 or more _scenarios_ that show different ways a feature is used
+* _Scenario_ is 3-8 _steps_ that describe the overall function of the scenario
+* 5 Keywords provided: Given/When/Then/And/But
+* Match steps with step definitions with Regexes
+* Cucumber colors the steps depending on passing(green)/not yet implemented(yellow)/failing(red)
+
+###Capybara
+
+* Simulates a browser and to interact with app
+* Cannot handle javascript(Webdriver can) but remains very fast
+
+###User Interface Design
+
+* User stories need User Interfaces
+* Want all stakeholders involved in UI design
+* Need UI equivalents of 3x5 cards
+* _Sketches_: pen and paper drawing or "Lo-Fi UI"
+* Storyboards show how UI changes based on user actions
+* Next step is HAML and CSS so we can make it pretty _after_ it works
+
 
 
 [1]: /ConnextraFormat
