@@ -5,6 +5,6 @@
 * When sending a redirect call, the new action doesn't have any intelligence of previous instance variables
 * this subverted with a facility called {{RailsFlash}}.
 * `, :notice => 'noticeInfo'` or `,:alert => "errorInfo"` can be used along with the redirect_to to make things more concise
-* `redirect_to` can take no action, just a bunch of hash keys and values and the current item will be redirected_to with given keys
+* `redirect_to` can take no action, just a bunch of hash keys and values and the _current item_ will be redirected_to with given keys
 
 [1]: https://en.wikipedia.org/wiki/HTTP_referrer
