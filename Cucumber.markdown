@@ -1,5 +1,7 @@
 Way to build a scenario in human readable language when using [outside in development][5]. Best served with large [Capybara Dsl][1] like rodents
 
+###Notes
+
 * To install a skeleton in a rails project: `rails g cucumber:install`
 * This also creates several handy rake tasks that can be seen by `rake -T`
 * Consist of three parts: Title, Brief Narrative, any amount of Scenarios
@@ -31,6 +33,10 @@ Way to build a scenario in human readable language when using [outside in develo
 * multiple tags are allowed
 * Cucumber can run just a certain set of tags 
 * Way easier than defining all your features with folders.
+
+###Resources
+
+* Breakdown of the CMDLine interface can be found in The Cucumber Book on page 191
 
 [1]: /CapybaraDsl
 [2]: /FactoryGirlCucumberEnvironment
