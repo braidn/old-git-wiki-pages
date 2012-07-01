@@ -36,10 +36,11 @@ Way to build a scenario in human readable language when using [outside in develo
 
 ###Resources
 
-* Breakdown of the CMDLine interface can be found in The Cucumber Book on page 191
+* Breakdown of the CMDLine interface can be found in [The Cucumber Book][6] on page 191
 
 [1]: /CapybaraDsl
 [2]: /FactoryGirlCucumberEnvironment
 [3]: /FactoryGirlCucumberEnvironment
 [4]: /CucumberKeywords
 [5]: /OutsideInDevelopment
+[6]: /http://pragprog.com/book/hwcuc/the-cucumber-book
