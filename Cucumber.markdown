@@ -17,7 +17,7 @@ Way to build a scenario in human readable language when using [outside in develo
 
 ###Objects
 
-* Best to use [Factory_girl][3]
+* Best to use [Factory_girl][3] or fabrication
 * make sure the files from the factories dir (or wherever) is being loaded into the factories.rb file in the support section of Cucumber
 * an [example][2]
 * This works because all files in features/support get loaded prior to cucumber running its tests
@@ -33,6 +33,11 @@ Way to build a scenario in human readable language when using [outside in develo
 * multiple tags are allowed
 * Cucumber can run just a certain set of tags 
 * Way easier than defining all your features with folders.
+
+###Making Life Easy
+
+* When building a forward facing application make sure to keep your technical verbiage in step definitions to a minimum.
+* _However,_ it is ok to go as technical as needed when building an api or an interface used by another programmer.
 
 ###Resources
 
