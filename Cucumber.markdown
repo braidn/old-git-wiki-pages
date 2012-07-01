@@ -43,4 +43,4 @@ Way to build a scenario in human readable language when using [outside in develo
 [3]: /FactoryGirlCucumberEnvironment
 [4]: /CucumberKeywords
 [5]: /OutsideInDevelopment
-[6]: /http://pragprog.com/book/hwcuc/the-cucumber-book
+[6]: http://pragprog.com/book/hwcuc/the-cucumber-book
